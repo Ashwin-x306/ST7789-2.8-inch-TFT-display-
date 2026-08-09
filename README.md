@@ -8,6 +8,8 @@ The main purpose of this project was to understand how an SPI-based TFT display 
 
 ![ST7789 Display](ST7789_DISPLAY.jpg)
 
+This is the 2.8-inch 240×320 TFT display used for the project.
+
 ## About the Project
 
 The ST7789 is a TFT display controller that communicates with the microcontroller over SPI.
@@ -76,6 +78,12 @@ The example demonstrates:
 - Displaying text
 - Drawing basic graphics
 
+### Example Output
+
+![ST7789 Example](example.jpg)
+
+The image above shows the output produced by the example program running on the ST7789 display.
+
 ## Project Structure
 
 ```text
@@ -90,5 +98,7 @@ ST7789-2.8-inch-TFT-display/
 ├── example.c
 │
 ├── ST7789_DISPLAY.jpg
+│
+├── example.jpg
 │
 └── README.md
