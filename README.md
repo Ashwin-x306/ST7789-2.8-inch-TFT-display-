@@ -4,6 +4,10 @@ A ST7789 driver I built from scratch for a 2.8-inch 240×320 TFT display, using 
 
 The main purpose of this project was to understand how an SPI-based TFT display works at a lower level and to build the driver without relying on an existing display library.
 
+## Display
+
+![ST7789 Display](ST7789_DISPLAY.jpg)
+
 ## About the Project
 
 The ST7789 is a TFT display controller that communicates with the microcontroller over SPI.
@@ -47,7 +51,7 @@ The STM32 communicates with the display using SPI along with GPIO control pins f
 The example project uses:
 
 | ST7789 | STM32F407 |
-|--------|-----------|
+| ------ | --------- |
 | SCK    | PB13      |
 | MISO   | PB14      |
 | MOSI   | PB15      |
@@ -71,6 +75,10 @@ The example demonstrates:
 - Filling the screen
 - Displaying text
 - Drawing basic graphics
+
+## Project Structure
+
+```text
 ST7789-2.8-inch-TFT-display/
 │
 ├── Inc/
@@ -80,5 +88,7 @@ ST7789-2.8-inch-TFT-display/
 │   └── ST7789.c
 │
 ├── example.c
+│
+├── ST7789_DISPLAY.jpg
 │
 └── README.md
